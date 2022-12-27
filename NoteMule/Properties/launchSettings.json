@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NoteMule (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "NoteMule (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

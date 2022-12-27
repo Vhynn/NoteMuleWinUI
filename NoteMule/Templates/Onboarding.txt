@@ -1,0 +1,14 @@
+Documentation followed: 
+New employee name:
+ 
+AD account
+	New username: 
+	New password: 
+
+Email account
+	New username: 
+	New password: 
+
+Other accounts set up: 
+
+Follow up required: 

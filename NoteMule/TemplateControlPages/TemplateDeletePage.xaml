@@ -1,0 +1,51 @@
+<!-- Copyright (c) Microsoft Corporation and Contributors. -->
+<!-- Licensed under the MIT License. -->
+
+<Page
+    x:Class="NoteMule.TemplateControlPages.TemplateDeletePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NoteMule.TemplateControlPages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+        <MenuBar Background="#2C4957">
+            <MenuBarItem Title="Tools">
+                <MenuFlyoutItem Text="Notes" 
+                                Click="NotesMenuClicked"/>
+                <MenuFlyoutItem Text="Password Generator"
+                                Click="PasswordToolMenuClicked"/>
+                <MenuFlyoutItem Text="Template Editor"
+                                Click="EditorMenuClicked"/>
+            </MenuBarItem>
+        </MenuBar>
+
+        <TextBlock Text="Select Template"
+                   HorizontalAlignment="Center"
+                   Margin="15,150,0,5"/>
+        <ComboBox x:Name="templateSelectName"
+                  HorizontalAlignment="Center"
+                  Width="384"
+                  FontSize="16"
+                  Margin="0,3,0,5">
+        </ComboBox>
+        <Button Content="Delete"
+                HorizontalAlignment="Center"
+                Foreground="White"
+                Background="#8C5F8E"
+                Width="384"
+                FontSize="20"
+                Margin="0,20,0,0"
+                Click="DeleteButtonClicked"/>
+        <Button Content="Cancel"
+                HorizontalAlignment="Center"
+                Foreground="White"
+                Background="#463247"
+                Width="268"
+                Margin="0,500,0,0"
+                Click="EditorMenuClicked"/>
+    </StackPanel>
+</Page>

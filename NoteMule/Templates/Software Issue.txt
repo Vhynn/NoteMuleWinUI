@@ -1,0 +1,12 @@
+Macine ID: 
+Best contact information: 
+Best contact time: 
+When did issue start: 
+Has the issue been seen before: 
+Software hosted local or remote:
+
+Description of issue:
+
+Steps taken: 
+
+Follow up required: 
